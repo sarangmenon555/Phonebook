@@ -84,7 +84,6 @@ Records are stored in a binary file named `project` in the same directory as the
 
 - The application is **Windows-only** due to its use of `<conio.h>` and `system("cls")` / `system("color")`.
 - The search and delete operations use **exact name matching** (case-sensitive).
-- The `got()` function implements a custom character-by-character input handler; backspace support has a minor display quirk (uses `system("cls")` to redraw).
 - Mobile number is stored as `long int`, which may not suit all phone number formats.
 
 ---
