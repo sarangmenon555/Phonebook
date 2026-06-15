@@ -92,6 +92,6 @@ Records are stored in a binary file named `project` in the same directory as the
 
 ```
 phonebook/
-├── phonebook.c   # Main source file containing all logic
-├── project       # Binary data file (auto-generated at runtime)
+├── phonebook.c   
+├── project     
 └── README.md
